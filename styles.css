@@ -18,3 +18,8 @@
     letter-spacing: 1px; /* Espaciado opcional para mejor legibilidad */
 }
 
+.card img {
+  width: 100%;       /* Ocupa el 100% del ancho disponible */
+  height: auto;      /* Mantiene la proporción de la imagen */
+  max-height: 300px; /* Ajusta la altura máxima al contenido */
+}
