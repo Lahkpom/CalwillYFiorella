@@ -1,0 +1,20 @@
+.carousel-item{
+    max-height: 500px;
+
+}
+
+.carousel-item img {
+  width: 100%;       /* Ocupa el 100% del ancho disponible */
+  height: auto;      /* Mantiene la proporción de la imagen */
+  object-fit: contain; /* Asegura que toda la imagen sea visible sin recortar */
+  max-height: 500px; /* Limita la altura máxima */
+}
+
+.navbar-title {
+    font-family: 'Alex Brush';
+    font-size: 1.5rem; /* Ajusta el tamaño según necesidad */
+    color: rgb(188, 4, 5); /* Color del texto */
+    text-align: center;
+    letter-spacing: 1px; /* Espaciado opcional para mejor legibilidad */
+}
+
