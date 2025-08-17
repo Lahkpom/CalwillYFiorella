@@ -10,6 +10,10 @@
   max-height: 500px; /* Limita la altura máxima */
 }
 
+.navbar{
+  background-color: rgb(248, 246, 233); /* Color de fondo claro */
+}
+
 .navbar-title {
     font-family: 'Alex Brush';
     font-size: 1.5rem; /* Ajusta el tamaño según necesidad */
@@ -18,8 +22,21 @@
     letter-spacing: 1px; /* Espaciado opcional para mejor legibilidad */
 }
 
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
 .card img {
   width: 100%;       /* Ocupa el 100% del ancho disponible */
   height: auto;      /* Mantiene la proporción de la imagen */
   max-height: 300px; /* Ajusta la altura máxima al contenido */
+  /*TODO hay que cambiar con un @media el heigth ajustandolo a cada tamaño para que quede bien*/
+  height: 300px;  
+  overflow: hidden;
 }
+
+#about-us-container {
+  background-color: rgb(248, 246, 233); /* Color de fondo claro */
+  padding: 50px 0; /* Espaciado superior e inferior */
+}
+
