@@ -15,7 +15,8 @@
 }
 
 .navbar-title {
-    font-family: 'Alex Brush';
+    /*font-family: 'Alex Brush';*/
+    font-family: 'Borel', cursive;
     font-size: 1.5rem; /* Ajusta el tamaño según necesidad */
     color: rgb(188, 4, 5); /* Color del texto */
     text-align: center;
