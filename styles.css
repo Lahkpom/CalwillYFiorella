@@ -1,3 +1,17 @@
+/*Navbar*/
+.navbar, footer{
+  background-color: rgb(250, 235, 214);/* Color de fondo claro */
+}
+
+.navbar-title {
+    font-family: 'Borel', cursive;
+    font-size: 1.5rem; /* Ajusta el tamaño según necesidad */
+    color: rgb(188, 4, 5); /* Color del texto */
+    text-align: center;
+    letter-spacing: 1px; /* Espaciado opcional para mejor legibilidad */
+}
+
+/*Carousel*/
 .carousel-item{
     max-height: 500px;
 
@@ -10,17 +24,12 @@
   max-height: 500px; /* Limita la altura máxima */
 }
 
-.navbar{
-  background-color: rgb(250, 235, 214);/* Color de fondo claro */
-}
-
-.navbar-title {
-    /*font-family: 'Alex Brush';*/
+/*Products*/
+.products-title {
     font-family: 'Borel', cursive;
-    font-size: 1.5rem; /* Ajusta el tamaño según necesidad */
+    font-size: 2.5rem; /* Tamaño del título */
     color: rgb(188, 4, 5); /* Color del texto */
-    text-align: center;
-    letter-spacing: 1px; /* Espaciado opcional para mejor legibilidad */
+    margin-bottom: 20px; /* Espacio debajo del título */
 }
 
 .card:hover {
@@ -36,8 +45,31 @@
   overflow: hidden;
 }
 
+/*About Us Section*/
 #about-us-container {
   background-color: rgb(248, 246, 233); /* Color de fondo claro */
   padding: 50px 0; /* Espaciado superior e inferior */
 }
 
+.about-us-title, .shipping-container, .pay-methods-container{
+  font-family: 'Borel', cursive;
+  font-size: 2.5rem; /* Tamaño del título */
+  color: rgb(188, 4, 5); /* Color del texto */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/*resale-container*/
+#resale-container {
+  background-color: rgb(248, 246, 233); /* Color de fondo claro */
+}
+
+/*Contact Form*/
+#contact-form-container {
+  background-color: rgb(248, 246, 233); /* Color de fondo claro */
+  padding: 25px; /* Espaciado */
+}
+
+#contact-form {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas */
+}

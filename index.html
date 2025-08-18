@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="/assets/logo2.jpg">
     <title>Calwill & Fiorella</title>
@@ -31,10 +32,16 @@
                         <a class="nav-link" href="#products-container">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact-container">Contacto</a>
+                        <a class="nav-link" href="#resale-container">Reventa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/reventa.html">Reventa</a>
+                        <a class="nav-link" href="#shipping-container">Envíos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pay-methods-container">Pagos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-container">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -65,9 +72,9 @@
     </div>
 
     <!-- Sobre Nosotros-->
-    <div class="container mt-3 py-3 text-center" id="about-us-container">
+    <div class="container mt-3 py-5 text-center" id="about-us-container">
         <div class="row">
-            <h2 class="col-md-12 mb-4">Sobre Nosotros</h2>
+            <h1 class="col-md-12 mb-4 about-us-title">Sobre Nosotros</h1>
             <div class="col-md-4">
                 <img src="./assets/logo.jpg" class="img-fluid" alt="Logo Calwill y Fiorella">
             </div>
@@ -81,8 +88,8 @@
     </div>
 
     <!-- Productos -->
-    <div class="container mt-5" id="products-container">
-        <h2 class="text-center mb-4">Nuestros Productos</h2>
+    <div class="container pt-5" id="products-container">
+        <h2 class="text-center mb-4 products-title">Nuestros Productos</h2>
         <div class="row">
             <div class="col-4 mb-4">
                 <div class="card">
@@ -142,13 +149,52 @@
     </div>
     
     <!-- Reventa -->
-    <div class="text-center">
-        <h1>Reventa de Mercadería</h1>
+    <div class="container mt-3 py-5 text-center" id="resale-container">
+        <div class="row">
+            <h1 class="col-12 mb-4 about-us-title">Reventa de Mercadería</h1>
+            <div class="col-12 px-5 align-self-center">
+                <p>
+                    Además de se fabricantes, también ofrecemos otras opciones que pueden consultar que vendemos, ingresando al siguiente 
+                    <a href="/reventa.html" target="_blank" rel="noopener noreferrer">link</a>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam hic error a! Enim delectus architecto minima, maiores voluptas obcaecati exercitationem ea quod ad reiciendis voluptatum dolore quas consequatur quidem est?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam hic error a! Enim delectus architecto minima, maiores voluptas obcaecati exercitationem ea quod ad reiciendis voluptatum dolore quas consequatur quidem est?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam hic error a! Enim delectus architecto minima, maiores voluptas obcaecati exercitationem ea quod ad reiciendis voluptatum dolore quas consequatur quidem est?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam hic error a! Enim delectus architecto minima, maiores voluptas obcaecati exercitationem ea quod ad reiciendis voluptatum dolore quas consequatur quidem est?</p>
+            </div>
+            <div class="col-4 mb-4">
+                <div class="card">
+                    <img src="./assets/product1.jpg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 1</h5>
+                        <p class="card-text">Descripción breve del producto 1.</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-4 mb-4">
+                <div class="card">
+                    <img src="./assets/product2.jpg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 2</h5>
+                        <p class="card-text">Descripción breve del producto 2.</p>  
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-4">
+                <div class="card">
+                    <img src="./assets/product3.jpg" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 3</h5>
+                        <p class="card-text">Descripción breve del producto 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Envíos -->
     <!-- Contiene dos row, una con indicaciones para envíos en GBA y otra para el resto del país, para GBA tiene tres columnas (1 para envíos en la zona de Llavallol gratis, 2 para envíos en GBA por mensajería con costo adicional, 3 para venir a retirar en un punto de encuentro en la estación de Llavallol que también es gratis. Para el resto que no es GBA se indica que se puede realizar envíos mediante una <ul> de opciones varias)-->
-    <div class="cointainer">
+    <div class="cointainer pt-5" id="shipping-container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="mb-4">Opciones de Envío</h2>
@@ -183,7 +229,7 @@
 
     <!-- Métodos de pago -->
     <!--Los métodos de pago son por efectivo o por transferencia a cuenta de mercado pago (con un aumento del x%)-->
-    <div class="container text-center my-5">
+    <div class="container text-center pt-5" id="pay-methods-container">
         <h2 class="mb-4">Métodos de Pago</h2>
         <p>Aceptamos los siguientes métodos de pago:</p>
         <ul class="list-unstyled">
@@ -193,42 +239,56 @@
     </div>
 
     <!-- Contacto -->
-    <div class="container mt-5" id="contact-container">
-        <h2 class="text-center mb-4">Contáctanos</h2>
-        <form id="contact-form">
-            <div class="mb-3">
-                <label for="name" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="name" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="message" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+    <div class="container mt-5" id="contact-form-container">
+        <div class="row">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <form id="contact-form">
+                <div class="col-6 mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Nombre y Apellido" required>
+                </div>
+                <div class="col-6 mb-3">
+                    <label for="phone-number" class="form-label">Número de Teléfono</label>
+                    <input type="phone-number" class="form-control" id="phone-number" placeholder="+54 9 11-2222-3333" required>
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Recibirá una respuesta vía WhatsApp lo más pronto posible." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
     </div>
 
     <!-- Footer -->
-    <footer class="bg-light text-center text-lg-start mt-5">
-        <div class="text-center p-3">
-            <a href="https://www.facebook.com" target="_blank" class="me-4">
-                <img src="/assets/facebook_icon.png" alt="Facebook" width="30" height="30">
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=1234567890" target="_blank">
-                <img src="/assets/whatsapp_icon.png" alt="WhatsApp" width="30" height="30">
-            </a>
-        </div>
-        <hr>
-        <div class="text-center p-3">
-            © 2023 Calwill y Fiorella. Todos los derechos reservados.
-        </div>
-        <div class="text-center p-3">
-            <a href="#" class="text-dark">Política de privacidad</a> | 
-            <a href="#" class="text-dark">Términos de servicio</a>
+    <footer class="text-center mt-5">
+        <div class="container">
+            <div class="row mb-3 pt-3">
+                <div class="col-4"></div>
+                <div class="col-2">
+                    <a href="https://www.facebook.com/share/16FkGbSYi4/?mibextid=wwXIfr" target="_blank" class="me-4">
+                        <i class="bi bi-facebook"></i>
+                        <!--<img src="/assets/facebook_icon.png" alt="Facebook" width="30" height="30">-->
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="https://api.whatsapp.com/send?phone=5491131883555" target="_blank">
+                        <i class="bi bi-whatsapp"></i>
+                        <!--<img src="/assets/whatsapp_icon.png" alt="WhatsApp" width="30" height="30">-->
+                    </a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row">
+                <hr>
+                <p class="col-12 mt-3">
+                    © 2023 Calwill y Fiorella. Todos los derechos reservados.
+                </p>
+                <div class="col-12 mb-3">
+                    <a href="#" class="text-dark">Política de privacidad</a> | 
+                    <a href="#" class="text-dark">Términos de servicio</a>
+                </div>
+            </div>
         </div>
     </footer>
 
