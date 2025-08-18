@@ -41,7 +41,7 @@
                         <a class="nav-link" href="#pay-methods-container">Pagos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact-container">Contacto</a>
+                        <a class="nav-link" href="#contact-form-container">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -74,7 +74,10 @@
     <!-- Sobre Nosotros-->
     <div class="container mt-3 py-5 text-center" id="about-us-container">
         <div class="row">
-            <h1 class="col-md-12 mb-4 about-us-title">Sobre Nosotros</h1>
+            <h1 class="col-md-12 mb-4">
+                <span class="titles">Sobre Nosotros</span>
+                <i class="bi bi-balloon-heart"></i>
+            </h1>
             <div class="col-md-4">
                 <img src="./assets/logo.jpg" class="img-fluid" alt="Logo Calwill y Fiorella">
             </div>
@@ -89,7 +92,10 @@
 
     <!-- Productos -->
     <div class="container pt-5" id="products-container">
-        <h2 class="text-center mb-4 products-title">Nuestros Productos</h2>
+        <h2 class="text-center mb-4">
+            <span class="titles">Nuestros Productos</span>
+            <i class="bi bi-cart"></i>
+        </h2>
         <div class="row">
             <div class="col-4 mb-4">
                 <div class="card">
@@ -149,9 +155,12 @@
     </div>
     
     <!-- Reventa -->
-    <div class="container mt-3 py-5 text-center" id="resale-container">
+    <div class="container mt-3 pt-5 text-center" id="resale-container">
         <div class="row">
-            <h1 class="col-12 mb-4 about-us-title">Reventa de Mercadería</h1>
+            <h1 class="col-12 mb-4">
+                <span class="titles">Reventa de Mercadería</span>
+                <i class="bi bi-box-seam"></i>
+            </h1>
             <div class="col-12 px-5 align-self-center">
                 <p>
                     Además de se fabricantes, también ofrecemos otras opciones que pueden consultar que vendemos, ingresando al siguiente 
@@ -165,28 +174,16 @@
             <div class="col-4 mb-4">
                 <div class="card">
                     <img src="./assets/product1.jpg" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 1</h5>
-                        <p class="card-text">Descripción breve del producto 1.</p>
-                    </div>  
                 </div>
             </div>
             <div class="col-4 mb-4">
                 <div class="card">
                     <img src="./assets/product2.jpg" class="card-img-top" alt="Producto 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 2</h5>
-                        <p class="card-text">Descripción breve del producto 2.</p>  
-                    </div>
                 </div>
             </div>
             <div class="col-4 mb-4">
                 <div class="card">
                     <img src="./assets/product3.jpg" class="card-img-top" alt="Producto 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 3</h5>
-                        <p class="card-text">Descripción breve del producto 3.</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -194,29 +191,28 @@
 
     <!-- Envíos -->
     <!-- Contiene dos row, una con indicaciones para envíos en GBA y otra para el resto del país, para GBA tiene tres columnas (1 para envíos en la zona de Llavallol gratis, 2 para envíos en GBA por mensajería con costo adicional, 3 para venir a retirar en un punto de encuentro en la estación de Llavallol que también es gratis. Para el resto que no es GBA se indica que se puede realizar envíos mediante una <ul> de opciones varias)-->
-    <div class="cointainer pt-5" id="shipping-container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h2 class="mb-4">Opciones de Envío</h2>
+    <div class="cointainer pt-5 text-center" id="shipping-container">
+        <div class="row mx-5 px-4">
+            <div class="col-md-12">
+                <h2 class="mb-4">
+                    <span class="titles">Opciones de Envío</span>
+                    <i class="bi bi-rocket-takeoff"></i>
+                </h2>
+            </div>        
+            <div class="col-md-4">
+                <h4 class="subtitles">Retiro en Estación Llavallol</h4>
+                <p>En caso que deseen retirarlo, se realiza la entrega de manera gratuita en el hall de la estación de tren de Llavallol, coordinando día y horario por WhatsApp.</p>
             </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-md-4 text-center">
-                <h4>Envíos en Zona de Llavallol</h4>
-                <p>Envío gratuito dentro de la zona de Llavallol.</p>
+            <div class="col-md-4">
+                <h4 class="subtitles">Envíos en GBA</h4>
+                <p>Envío mediante repartidor con un costo adicional. El costo depende de la zona.</p>
+                <p>En caso de seleccionar envío, se deberá abonar el mismo en su totalidad por transeferencia a Mercado Pago el mismo día a modo de anticipo, previo a la salida del repartidor.</p>
+                <p>Se coordinará día y horario vía WhatsApp, una vez esté el repartidor en el lugar y hora acordado, se tendrá una tolerancia de 15 minutos.</p>
+                <p>En caso de sobrepasar el tiemo de tolerancia, el pago no es reembolsable, y el repartidor coninuará con el resto de entregas, debiendose pactar una nueva fecha y horario.</p>
+                <p>Dependiendo de la demanda, podría coordinarse para ese mismo día. En cualquier caso, se deberá abonar una nueva cuota de envío.</p>
             </div>
-            <div class="col-md-4 text-center">
-                <h4>Envíos en GBA</h4>
-                <p>Envío mediante mensajería con un costo adicional.</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <h4>Retiro en Punto de Encuentro</h4>
-                <p>Retiro gratuito en la estación de Llavallol.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h4>Envíos al Resto del País</h4>
+            <div class="col-md-4">
+                <h4 class="subtitles">Envíos al Resto del País</h4>
                 <ul class="list-unstyled">
                     <li>Envío mediante Correo Argentino.</li>
                     <li>Envío mediante OCA.</li>
@@ -230,7 +226,10 @@
     <!-- Métodos de pago -->
     <!--Los métodos de pago son por efectivo o por transferencia a cuenta de mercado pago (con un aumento del x%)-->
     <div class="container text-center pt-5" id="pay-methods-container">
-        <h2 class="mb-4">Métodos de Pago</h2>
+        <h2 class="mb-4">
+            <span class="titles">Métodos de Pago</span>
+            <i class="bi bi-cash-coin"></i>
+        </h2>
         <p>Aceptamos los siguientes métodos de pago:</p>
         <ul class="list-unstyled">
             <li>Transferencia bancaria a cuenta de Mercado Pago</li>
@@ -240,16 +239,19 @@
 
     <!-- Contacto -->
     <div class="container mt-5" id="contact-form-container">
+        <h2 class="text-center mb-4">
+            <span class="titles">Contáctanos</span>
+            <i class="bi bi-mailbox-flag"></i>
+        </h2>
         <div class="row">
-            <h2 class="text-center mb-4">Contáctanos</h2>
             <form id="contact-form">
                 <div class="col-6 mb-3">
                     <label for="name" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="name" placeholder="Nombre y Apellido" required>
+                    <input type="text" class="form-control" id="name" placeholder="Nombre" required>
                 </div>
                 <div class="col-6 mb-3">
                     <label for="phone-number" class="form-label">Número de Teléfono</label>
-                    <input type="phone-number" class="form-control" id="phone-number" placeholder="+54 9 11-2222-3333" required>
+                    <input type="phone-number" class="form-control" id="phone-number" placeholder="Sin espacios ni guiones 1122223333" required>
                 </div>
                 <div class="col-12 mb-3">
                     <label for="message" class="form-label">Mensaje</label>
@@ -267,14 +269,12 @@
                 <div class="col-4"></div>
                 <div class="col-2">
                     <a href="https://www.facebook.com/share/16FkGbSYi4/?mibextid=wwXIfr" target="_blank" class="me-4">
-                        <i class="bi bi-facebook"></i>
-                        <!--<img src="/assets/facebook_icon.png" alt="Facebook" width="30" height="30">-->
+                        <i class="bi bi-facebook"></i> Facebook
                     </a>
                 </div>
                 <div class="col-2">
-                    <a href="https://api.whatsapp.com/send?phone=5491131883555" target="_blank">
-                        <i class="bi bi-whatsapp"></i>
-                        <!--<img src="/assets/whatsapp_icon.png" alt="WhatsApp" width="30" height="30">-->
+                    <a href="https://api.whatsapp.com/send?phone=5491159590586" target="_blank">
+                        <i class="bi bi-whatsapp"></i> +54 9 11-5959-0586 
                     </a>
                 </div>
                 <div class="col-4"></div>
